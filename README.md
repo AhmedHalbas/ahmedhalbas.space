@@ -8,11 +8,11 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://ahmedhalbas.me">
+  <a href="https://ahmedhalbas.tech">
     <img src="https://pngimage.net/wp-content/uploads/2018/06/portfolio-png-8.png" alt="Logo" width="500" height="200">
   </a>
   
-   <a href="https://ahmedhalbas.me">
+   <a href="https://ahmedhalbas.tech">
    <h3 align="center">My Portfolio</h3>
   </a>
 
