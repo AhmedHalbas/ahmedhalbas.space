@@ -8,11 +8,11 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://ahmedhalbas.tech">
+  <a href="https://ahmedhalbas.com">
     <img src="https://boss-portal.vistaland.com.ph/wp-content/uploads/2021/10/Portfolio.png" alt="Logo" width="800" height="200">
   </a>
   
-   <a href="https://ahmedhalbas.tech">
+   <a href="https://ahmedhalbas.com">
    <h3 align="center">My Portfolio</h3>
   </a>
 
