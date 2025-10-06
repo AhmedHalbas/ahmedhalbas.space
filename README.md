@@ -9,7 +9,7 @@
 <br />
 <p align="center">
   <a href="https://ahmedhalbas.tech">
-    <img src="https://boss-portal.vistaland.com.ph/wp-content/uploads/2021/10/Portfolio.png" alt="Logo" width="800" height="200">
+    <img src="https://raw.githubusercontent.com/AhmedHalbas/ahmedhalbas.space/refs/heads/master/assets/images/Employment.ico" alt="Logo" width="150" height="150">
   </a>
   
    <a href="https://ahmedhalbas.tech">
