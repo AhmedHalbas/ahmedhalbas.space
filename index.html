@@ -1,675 +1,1297 @@
 <!doctype html>
 <html lang="en">
 <head>
-        <title>Ahmed Essam</title>
-        
+    <title>Ahmed Essam - Mobile App Developer</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- FAV AND ICONS   -->
+    <link rel="shortcut icon" type="image/x-icon" href="assets/images/Employment.ico" />
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="assets/plugins/css/bootstrap.min.css">
+    <!-- Animate CSS -->
+    <link rel="stylesheet" href="assets/plugins/css/animate.css">
+    <!-- Owl Carousel CSS -->
+    <link rel="stylesheet" href="assets/plugins/css/owl.css">
+    <!-- Fancybox -->
+    <link rel="stylesheet" href="assets/plugins/css/jquery.fancybox.min.css">
+    
+    <!-- Enhanced Custom Styles -->
+    <style>
+        :root {
+            --primary-color: #667eea;
+            --secondary-color: #764ba2;
+            --accent-color: #f093fb;
+            --text-light: #ffffff;
+            --text-dark: #2d3748;
+            --text-muted: #718096;
+            --bg-dark: #1a202c;
+            --bg-darker: #171923;
+            --bg-card: #2d3748;
+            --gradient-primary: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            --gradient-accent: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+            --gradient-bg: linear-gradient(135deg, #667eea 0%, #764ba2 50%, #f093fb 100%);
+            --shadow-light: 0 10px 25px rgba(0, 0, 0, 0.1);
+            --shadow-medium: 0 20px 40px rgba(0, 0, 0, 0.15);
+            --shadow-heavy: 0 30px 60px rgba(0, 0, 0, 0.2);
+        }
 
-        <!-- FAV AND ICONS   -->
-        <link rel="shortcut icon" type="image/x-icon" href="assets/images/Employment.ico" />
-        
-        <!-- Google Font-->
-        <link href="http://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-        <!-- Font Awesome -->
-        <link rel="stylesheet" href="assets/icons/font-awesome-4.7.0/css/font-awesome.min.css">
-        <!-- Bootstrap CSS -->
-        <link rel="stylesheet" href="assets/plugins/css/bootstrap.min.css">
-        <!-- Animate CSS-->
-        <link rel="stylesheet" href="assets/plugins/css/animate.css">
-        <!-- Owl Carousel CSS-->
-        <link rel="stylesheet" href="assets/plugins/css/owl.css">
-        <!-- Fancybox-->
-        <link rel="stylesheet" href="assets/plugins/css/jquery.fancybox.min.css">
-        <!-- Custom CSS-->
-        <link rel="stylesheet" href="assets/css/styles.css">
-        <link rel="stylesheet" href="assets/css/responsive.css">
-        
-        <!-- Colors -->
-        <link rel="alternate stylesheet" href="assets/css/colors/blue.css" title="blue">
-        <link rel="alternate stylesheet" href="assets/css/colors/defauld.css" title="defauld">
-        <link rel="alternate stylesheet" href="assets/css/colors/green.css" title="green">
-        <link rel="stylesheet" href="assets/css/colors/blue-munsell.css" title="blue-munsell">
-        <link rel="alternate stylesheet" href="assets/css/colors/orange.css" title="orange">
-        <link rel="alternate stylesheet" href="assets/css/colors/purple.css" title="purple">
-        <link rel="alternate stylesheet" href="assets/css/colors/slate.css" title="slate">
-        <link rel="alternate stylesheet" href="assets/css/colors/yellow.css" title="yellow">
-    </head>
-    <body class="white-vertion black-bg">
-        <!--
-        ===================
-           NAVIGATION
-        ===================
-        -->
-        <header class="black-bg mh-header mh-fixed-nav nav-scroll mh-xs-mobile-nav wow fadeInUp" id="mh-header">
-            <div class="overlay"></div>
-            <div class="container">
-                <div class="row">
-                    <nav class="navbar navbar-expand-lg mh-nav nav-btn">
-                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon icon"></span>
-                        </button>
-                    
-                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                            <ul class="navbar-nav mr-auto ml-auto">
-                                <li class="nav-item active">
-                                    <a class="nav-link" href="#mh-home">Home</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#mh-about">About</a>
-                                </li>
-                                                               
-                                <li class="nav-item">
-                                   <a class="nav-link" href="#mh-experience">Education</a>
-                                </li>                                
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#mh-portfolio">Portfolio</a>
-                                </li> 
-                                
-                                <li class="nav-item">
-                                   <a class="nav-link" href="#mh-contact">Contact</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </nav>
-                </div>
-            </div>
-        </header>
-        
-        <!--
-        ===================
-            HOME 
-        ===================
-        -->
-        <section class="mh-home" id="mh-home">
-            <div class="home-ovimg">
-                <div class="container">
-                    <div class="row xs-column-reverse section-separator vertical-middle-content home-padding">
-                        <div class="col-sm-6">
-                            <div class="mh-header-info">
-                                <div class="mh-promo wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.1s">
-                                    <span>Hello I'm</span>
-                                </div>
-                                
-                                <h2 class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s">Ahmed Essam Halbas</h2>
-                                <h4 class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.3s">Mobile App Developer</h4>
-                                
-                                <ul>
-                                    <li class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.4s"><i class="fa fa-envelope"></i><a href="mailto:ahmedessamhalbas@gmail.com">ahmedessamhalbas@gmail.com</a></li>
-                                    <li class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.5s"><i class="fa fa-phone"></i><a href="callto:+201017092487">+20 101 709 2487</a></li>
-                                    <li class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.6s"><i class="fa fa-map-marker"></i><address>6th of October City, Giza</address></li>
-                                </ul>
-                                
-                                <ul style="display: flex;" data-wow-duration="0.8s" data-wow-delay="0.7s">
-                                    <li><a href="#" onclick="window.open('https://www.linkedin.com/in/ahmedhalbas')"><i class="fa fa-linkedin-square" style="font-size: 35px;"></i></a></li>
-                                    <li><a href="#" onclick="window.open('https://github.com/AhmedHalbas')"><i class="fa fa-github" style="font-size: 35px;"></i></a></li>
-                                
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="col-sm-6">
-                            <div class="hero-img wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.6s">
-                                <div class="img-border">
-                                    <img src="assets/images/hero.jpg" alt=""  class="img-fluid">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>   
-        
-        <!--
-        ==================
-            ABOUT
-        =================
-        -->
-        <section class="mh-about" id="mh-about">
-            <div class="container">
-                <div class="row section-separator">
-                    <div class="col-sm-12 col-md-6">
-                        <div class="mh-about-img shadow-2 wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.4s">
-                            <img src="assets/images/ab-img.png" alt="" class="img-fluid">
-                        </div>
-                    </div>
-                    <div class="col-sm-12 col-md-6">
-                        <div class="mh-about-inner">
-                            <h2 class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.1s">About Me</h2>
-                            <p class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s">Hello, I’m a Ahmed, a mobile developer based in Cairo. 
-                            I have rich experience in mobile apps design & building 
-                            and customization. Also I am good at</p>
-                            <div class="mh-about-tag wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.3s">
-                                <ul>
-                                    <li><span>JavaScript</span></li>
-                                    <li><span>React Native</span></li>
-                                    <li><span>React</span></li>
-                                    <li><span>Dart</span></li>
-                                    <li><span>Flutter</span></li>
-                                </ul>
-                            </div>
-                            <a href="#" onclick="window.open('https://www.dropbox.com/s/5qo8qmx66x7o2cn/Ahmed-Essam-Resume.pdf')" class="btn btn-fill wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.4s">Download CV <i class="fa fa-download"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        
-        <!--
-        ===================
-           SERVICE
-        ===================
-        -->
-        <section class="mh-service">
-            <div class="container">
-                <div class="row section-separator">
-                    <div class="col-sm-12 text-center section-title wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s">
-                        <h2>What I do</h2>
-                    </div>
-                    
-                    <div class="col-sm-6">
-                        <div class="mh-service-item shadow-1 dark-bg wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.5s">
-                            <i class="fa fa-code iron-color"></i>
-                            <h3>Native Android App Development</h3>
-                            <p>
-                                I can develop native mobile applications for Android OS
-                                that respect the highest standards of usability, 
-                                performance and appearance.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="col-sm-6">
-                        <div class="mh-service-item shadow-1 dark-bg wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.7s">
-                            <i class="fa fa-object-ungroup sky-color"></i>
-                            <h3> React Native and Flutter App Development</h3>
-                            <p>
-                                I can develop  mobile applications that work for both Android OS 
-                                & IOS with high-quality code and perfect UI & UX.
-                            </p>
-                        </div>
-                    </div>
-                    
-                </div>
-            </div>
-        </section>       
-        
-     
-      
-        
-        <!--
-        ===================
-           EXPERIENCES
-        ===================
-        -->
-        <section class="mh-experince" id="mh-experience">
-            <div class="bolor-overlay">
-                <div class="container">
-                    <div class="row section-separator">
-                        <div class="col-sm-12 col-md-9">
-                            <div class="mh-education">
-                                 <h3 class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s">Education</h3>
-                                <div class="mh-education-deatils">
-                                    <!-- Education Institutes-->
-                                    <div class="mh-education-item dark-bg wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.3s">
-                                        <h4>Bachelor of Computer Science From <a target="_blank" href="https://must.edu.eg">Misr University For Science and Technology 2016-2020</a></h4>
-                                    </div>      
-                                    
-                                     <div class="mh-education-item dark-bg wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.3s">
-                                        <h4>9-Months Training at <a target="_blank" href="https://www.iti.gov.eg">Information Technology Institute 2020-2021</a></h4>
-                                    </div>   
-                                    
-                                </div>
-                            </div>
-                        </div>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
 
-                        
-                       
-                    </div>
+        body {
+            font-family: 'Inter', sans-serif;
+            background: var(--bg-dark);
+            color: var(--text-light);
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
 
-                    
-                </div>
-            </div>
-        </section>
-        
-        <!--
-        ===================
-           PORTFOLIO
-        ===================
-        -->
-        <section class="mh-portfolio" id="mh-portfolio">
-            <div class="container">
-                <div class="row section-separator">
-                    <div class="section-title col-sm-12 wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.1s">
-                        <h3>Recent Projects</h3>
-                    </div>
-                    <div class="part col-sm-12">
-                        <div class="portfolio-nav col-sm-12" id="filter-button">
-                            <ul>
-                                <li data-filter="*" class="current wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.1s"> <span>All Categories</span></li>
-                                <li data-filter=".react_native" class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.3s"><span>React Native</span></li>
-                                <li data-filter=".npm" class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.3s"><span>Open Source Libraries</span></li>
-                                <li data-filter=".flutter" class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.3s"><span>Flutter</span></li>
-                                <li data-filter=".native_android" class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s"><span>Native Android</span></li>
-                                <li data-filter=".certificates" class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s"><span>Certificates</span></li>
-                        
-                            </ul>
-                        </div>
-                        <div class="mh-project-gallery col-sm-12 wow fadeInUp" id="project-gallery" data-wow-duration="0.8s" data-wow-delay="0.5s">
-                            <div style="cursor: pointer;" class="portfolioContainer row">
+        .container {
+            max-width: 1200px;
+        }
 
-                                    <div href="#" onclick="window.open('https://apps.apple.com/ie/app/my-vodafone-ireland/id450785639')" class="grid-item col-md-4 col-sm-6 col-xs-12 react_native">
-                                    <figure>
-                                        <img src="https://play-lh.googleusercontent.com/QukDVaC3VawzAELKMvWnyEajdXS2UsTF3TspfGk13oCbRNj9PH8dkT-lrD1DctLncr8" alt="img05">
-                                        <figcaption class="fig-caption">
-                                            <i class="fa fa-search"></i>
-                                            <h6 class="title">My Vodafone Ireland - iOS</h6>
-                                            <span class="sub-title">React Native</span>
+        /* Enhanced Header Styles */
+        header {
+            background: rgba(26, 32, 44, 0.95);
+            backdrop-filter: blur(20px);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+            transition: all 0.3s ease;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 999;
+        }
 
-                                        
-                                        </figcaption>
-                                    </figure>
-                                </div>
+        .navbar-nav .nav-link {
+            color: var(--text-light) !important;
+            font-weight: 500;
+            margin: 0 15px;
+            position: relative;
+            transition: all 0.3s ease;
+        }
 
-                                     <div href="#" onclick="window.open('https://play.google.com/store/apps/details?id=com.VodafoneIreland.MyVodafone')" class="grid-item col-md-4 col-sm-6 col-xs-12 react_native">
-                                    <figure>
-                                        <img src="https://play-lh.googleusercontent.com/QukDVaC3VawzAELKMvWnyEajdXS2UsTF3TspfGk13oCbRNj9PH8dkT-lrD1DctLncr8" alt="img05">
-                                        <figcaption class="fig-caption">
-                                            <i class="fa fa-search"></i>
-                                            <h6 class="title">My Vodafone Ireland - Android</h6>
-                                            <span class="sub-title">React Native</span>
+        .navbar-nav .nav-link:hover,
+        .navbar-nav .nav-link.active {
+            color: var(--accent-color) !important;
+        }
 
-                                        
-                                        </figcaption>
-                                    </figure>
-                                </div>
-                                    
-                                     <div href="#" onclick="window.open('https://apps.apple.com/al/app/my-vodafone-albania/id562221028')" class="grid-item col-md-4 col-sm-6 col-xs-12 react_native">
-                                    <figure>
-                                        <img src="https://play-lh.googleusercontent.com/QukDVaC3VawzAELKMvWnyEajdXS2UsTF3TspfGk13oCbRNj9PH8dkT-lrD1DctLncr8" alt="img05">
-                                        <figcaption class="fig-caption">
-                                            <i class="fa fa-search"></i>
-                                            <h6 class="title">My Vodafone Albania - iOS</h6>
-                                            <span class="sub-title">React Native</span>
+        .navbar-nav .nav-link::after {
+            content: '';
+            position: absolute;
+            bottom: -5px;
+            left: 0;
+            width: 0;
+            height: 2px;
+            background: var(--gradient-accent);
+            transition: width 0.3s ease;
+        }
 
-                                        
-                                        </figcaption>
-                                    </figure>
-                                </div>
+        .navbar-nav .nav-link:hover::after,
+        .navbar-nav .nav-link.active::after {
+            width: 100%;
+        }
 
-                                     <div href="#" onclick="window.open('https://play.google.com/store/apps/details?id=al.myvodafone.android')" class="grid-item col-md-4 col-sm-6 col-xs-12 react_native">
-                                    <figure>
-                                        <img src="https://play-lh.googleusercontent.com/QukDVaC3VawzAELKMvWnyEajdXS2UsTF3TspfGk13oCbRNj9PH8dkT-lrD1DctLncr8" alt="img05">
-                                        <figcaption class="fig-caption">
-                                            <i class="fa fa-search"></i>
-                                            <h6 class="title">My Vodafone Albania - Android</h6>
-                                            <span class="sub-title">React Native</span>
+        /* Hero Section */
+        .mh-home {
+            min-height: 100vh;
+            background: var(--gradient-bg);
+            position: relative;
+            display: flex;
+            align-items: center;
+            padding-top: 80px;
+        }
 
-                                        
-                                        </figcaption>
-                                    </figure>
-                                </div>
-                                      <div href="#" onclick="window.open('https://apps.apple.com/ao/app/my-vodafone-portugal/id400485671')" class="grid-item col-md-4 col-sm-6 col-xs-12 react_native">
-                                    <figure>
-                                        <img src="https://play-lh.googleusercontent.com/QukDVaC3VawzAELKMvWnyEajdXS2UsTF3TspfGk13oCbRNj9PH8dkT-lrD1DctLncr8" alt="img05">
-                                        <figcaption class="fig-caption">
-                                            <i class="fa fa-search"></i>
-                                            <h6 class="title">My Vodafone Portugal - iOS</h6>
-                                            <span class="sub-title">React Native</span>
+        .mh-home::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><defs><radialGradient id="grad" cx="50%" cy="50%" r="50%"><stop offset="0%" stop-color="rgba(255,255,255,0.1)"/><stop offset="100%" stop-color="rgba(255,255,255,0)"/></radialGradient></defs><circle cx="20" cy="20" r="2" fill="url(%23grad)"/><circle cx="80" cy="40" r="1.5" fill="url(%23grad)"/><circle cx="40" cy="80" r="1" fill="url(%23grad)"/><circle cx="90" cy="90" r="2.5" fill="url(%23grad)"/></svg>');
+            opacity: 0.3;
+        }
 
-                                        
-                                        </figcaption>
-                                    </figure>
-                                </div>
+        .mh-header-info {
+            position: relative;
+            z-index: 2;
+        }
 
-                                     <div href="#" onclick="window.open('https://play.google.com/store/apps/details?id=com.vodafone.mCare')" class="grid-item col-md-4 col-sm-6 col-xs-12 react_native">
-                                    <figure>
-                                        <img src="https://play-lh.googleusercontent.com/QukDVaC3VawzAELKMvWnyEajdXS2UsTF3TspfGk13oCbRNj9PH8dkT-lrD1DctLncr8" alt="img05">
-                                        <figcaption class="fig-caption">
-                                            <i class="fa fa-search"></i>
-                                            <h6 class="title">My Vodafone Portugal - Android</h6>
-                                            <span class="sub-title">React Native</span>
+        .mh-header-info h2 {
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: 3.5rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+            background: linear-gradient(135deg, #ffffff 0%, #f093fb 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
 
-                                        
-                                        </figcaption>
-                                    </figure>
-                                </div>
+        .mh-header-info h4 {
+            font-size: 1.5rem;
+            color: rgba(255, 255, 255, 0.9);
+            margin-bottom: 2rem;
+            font-weight: 400;
+        }
 
-                                    <div href="#" onclick="window.open('https://apps.apple.com/eg/app/twist-music-music-radio/id1455541837')" class="grid-item col-md-4 col-sm-6 col-xs-12 react_native">
-                                    <figure>
-                                        <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/0b/be/76/0bbe7685-665e-dd54-d8b3-9304c3d1cb66/AppIcon-1x_U007emarketing-0-7-0-0-85-220-0.png/460x0w.webp" alt="img05">
-                                        <figcaption class="fig-caption">
-                                            <i class="fa fa-search"></i>
-                                            <h6 class="title">Twist Music - iOS</h6>
-                                            <span class="sub-title">React Native</span>
+        .mh-promo span {
+            font-size: 1.2rem;
+            color: var(--accent-color);
+            font-weight: 500;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
 
-                                        
-                                        </figcaption>
-                                    </figure>
-                                </div>
+        .mh-header-info ul {
+            list-style: none;
+            margin-bottom: 2rem;
+        }
 
-                                 <div href="#" onclick="window.open('https://play.google.com/store/apps/details?id=com.etisalat.music')" class="grid-item col-md-4 col-sm-6 col-xs-12 react_native">
-                                    <figure>
-                                        <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/0b/be/76/0bbe7685-665e-dd54-d8b3-9304c3d1cb66/AppIcon-1x_U007emarketing-0-7-0-0-85-220-0.png/460x0w.webp" alt="img05">
-                                        <figcaption class="fig-caption">
-                                            <i class="fa fa-search"></i>
-                                            <h6 class="title">Twist Music - Android</h6>
-                                            <span class="sub-title">React Native</span>
+        .mh-header-info ul li {
+            margin-bottom: 1rem;
+            display: flex;
+            align-items: center;
+        }
 
-                                        
-                                        </figcaption>
-                                    </figure>
-                                </div>
-                                    
+        .mh-header-info ul li i {
+            width: 30px;
+            color: var(--accent-color);
+            margin-right: 15px;
+        }
 
-                                <div href="#" onclick="window.open('https://apps.apple.com/lv/app/memphis-tours/id1613161049')" class="grid-item col-md-4 col-sm-6 col-xs-12 react_native">
-                                    <figure>
-                                        <img src="https://play-lh.googleusercontent.com/fLLhTMnq3OyBdTYIamXRBjeoh9dV_DdWGJ32FPkFBSqrwxNsUK_3rLpBIg25W4xRfA=w480-h960-rw" alt="img04">
-                                        <figcaption class="fig-caption">
-                                            <i class="fa fa-search"></i>
-                                            <h6 class="title">Memphis Tours - iOS</h6>
-                                            <span class="sub-title">React Native</span>
+        .mh-header-info ul li a {
+            color: var(--text-light);
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
 
-                                        
-                                        </figcaption>
-                                    </figure>
-                                </div>
+        .mh-header-info ul li a:hover {
+            color: var(--accent-color);
+        }
 
-                                 <div href="#" onclick="window.open('https://play.google.com/store/apps/details?id=com.travelverse')" class="grid-item col-md-4 col-sm-6 col-xs-12 react_native">
-                                    <figure>
-                                        <img src="https://play-lh.googleusercontent.com/fLLhTMnq3OyBdTYIamXRBjeoh9dV_DdWGJ32FPkFBSqrwxNsUK_3rLpBIg25W4xRfA=w480-h960-rw" alt="img04">
-                                        <figcaption class="fig-caption">
-                                            <i class="fa fa-search"></i>
-                                            <h6 class="title">Memphis Tours - Android</h6>
-                                            <span class="sub-title">React Native</span>
+        /* Social Links */
+        .social-links {
+            display: flex;
+            gap: 20px;
+        }
 
-                                        
-                                        </figcaption>
-                                    </figure>
-                                </div>
+        .social-links a {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 50px;
+            height: 50px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 50%;
+            color: var(--text-light);
+            font-size: 1.5rem;
+            transition: all 0.3s ease;
+            backdrop-filter: blur(10px);
+        }
 
-                                 <div href="#" onclick="window.open('https://apps.apple.com/lv/app/memphis-sales/id1641721095')" class="grid-item col-md-4 col-sm-6 col-xs-12 react_native">
-                                    <figure>
-                                        <img src="https://play-lh.googleusercontent.com/05DDWNvtxASig0eajdavP-w6_e83HtbgPR26GGDnUcXviw6KJbJYvGem8FdX5322SHWl=w480-h960-rw" alt="img04">
-                                        <figcaption class="fig-caption">
-                                            <i class="fa fa-search"></i>
-                                            <h6 class="title">Memphis Sales - iOS</h6>
-                                            <span class="sub-title">React Native</span>
-                                        
-                                        </figcaption>
-                                    </figure>
-                                </div>
+        .social-links a:hover {
+            background: var(--gradient-accent);
+            transform: translateY(-3px);
+            box-shadow: var(--shadow-medium);
+        }
 
-                                 <div href="#" onclick="window.open('https://play.google.com/store/apps/details?id=com.memphissales')" class="grid-item col-md-4 col-sm-6 col-xs-12 react_native">
-                                    <figure>
-                                        <img src="https://play-lh.googleusercontent.com/05DDWNvtxASig0eajdavP-w6_e83HtbgPR26GGDnUcXviw6KJbJYvGem8FdX5322SHWl=w480-h960-rw" alt="img04">
-                                        <figcaption class="fig-caption">
-                                            <i class="fa fa-search"></i>
-                                            <h6 class="title">Memphis Sales - Android</h6>
-                                            <span class="sub-title">React Native</span>
-                                        
-                                        </figcaption>
-                                    </figure>
-                                </div>
+        /* Hero Image */
+        .hero-img {
+            position: relative;
+            z-index: 2;
+        }
 
-                                <div href="#" onclick="window.open('https://www.npmjs.com/package/react-native-paginated-modal-picker')" class="grid-item col-md-4 col-sm-6 col-xs-12 npm">
-                                    <figure>
-                                        <img src="https://www.svgrepo.com/show/354126/npm-icon.svg" alt="img04">
-                                        <figcaption class="fig-caption">
-                                            <i class="fa fa-search"></i>
-                                            <h6 class="title">React Native Paginated Modal Picker</h6>
-                                            <span class="sub-title">Open Source Libraries</span>
-                                        
-                                        </figcaption>
-                                    </figure>
-                                </div>
-                                    
-                                 <div href="#" onclick="window.open('https://www.npmjs.com/package/react-native-local-notifier')" class="grid-item col-md-4 col-sm-6 col-xs-12 npm">
-                                    <figure>
-                                        <img src="https://www.svgrepo.com/show/354126/npm-icon.svg" alt="img04">
-                                        <figcaption class="fig-caption">
-                                            <i class="fa fa-search"></i>
-                                            <h6 class="title">React Native Local Notifier</h6>
-                                            <span class="sub-title">Open Source Libraries</span>
-                                        
-                                        </figcaption>
-                                    </figure>
-                                </div>
-                                
-                                <div href="#" onclick="window.open('https://github.com/AhmedHalbas/E7la2ly')" class="grid-item col-md-4 col-sm-6 col-xs-12 native_android">
-                                    <figure>
-                                        <img src="assets/images/portfolio/g1.jpg" alt="img04">
-                                        <figcaption class="fig-caption">
-                                            <i class="fa fa-search"></i>
-                                            <h6 class="title">E7la2ly</h6>
-                                            <span class="sub-title">Native Android</span>
-                                        
-                                        </figcaption>
-                                    </figure>
-                                </div>
-                               
-                                <div href="#" onclick="window.open('https://github.com/AhmedHalbas/GlobalNewsRetrofit')" class="grid-item col-md-4 col-sm-6 col-xs-12 native_android">
-                                    <figure>
-                                        <img src="assets/images/portfolio/g2.jpg" alt="img04">
-                                        <figcaption class="fig-caption">
-                                            <i class="fa fa-search"></i>
-                                            <h6 class="title">Global News</h6>
-                                            <span class="sub-title">Native Android</span>
-                                        
-                                        </figcaption>
-                                    </figure>
-                                </div>
-                                <div href="#" onclick="window.open('https://github.com/AhmedHalbas/BooksInfo')" class="grid-item col-md-4 col-sm-6 col-xs-12 native_android">
-                                    <figure>
-                                        <img src="assets/images/portfolio/g3.png" alt="img04">
-                                        <figcaption class="fig-caption">
-                                            <i class="fa fa-search"></i>
-                                            <h6 class="title">Books Info</h6>
-                                            <span class="sub-title">Native Android</span>
-                                        
-                                        </figcaption>
-                                    </figure>
-                                </div>
-                                <div href="#" onclick="window.open('https://github.com/AhmedHalbas/ToDoList')" class="grid-item col-md-4 col-sm-6 col-xs-12 native_android">
-                                    <figure>
-                                        <img src="assets/images/portfolio/g4.png" alt="img04">
-                                        <figcaption class="fig-caption">
-                                            <i class="fa fa-search"></i>
-                                            <h6 class="title">To DO List</h6>
-                                            <span class="sub-title">Native Android</span>
-                                        
-                                        </figcaption>
-                                    </figure>
-                                </div>
-                                <div href="#" onclick="window.open('https://halbas-covid19.en.uptodown.com/android')" class="grid-item col-md-4 col-sm-6 col-xs-12 flutter">
-                                    <figure>
-                                        <img src="assets/images/portfolio/g5.png" alt="img04">
-                                        <figcaption class="fig-caption">
-                                            <i class="fa fa-search"></i>
-                                            <h6 class="title">COVID-19 Tracker</h6>
-                                            <span class="sub-title">Flutter</span>
-                                        
-                                        </figcaption>
-                                    </figure>
-                                </div>
-                                <div href="#" onclick="window.open('https://drive.google.com/file/d/1Vj9tcx7gY6whg7wLB_CfquPfMn6oVR8H/view')" class="grid-item col-md-4 col-sm-6 col-xs-12 flutter">
-                                    <figure>
-                                        <img src="assets/images/portfolio/g6.png" alt="img04">
-                                        <figcaption class="fig-caption">
-                                            <i class="fa fa-search"></i>
-                                            <h6 class="title">Buybes E-Commerce</h6>
-                                            <span class="sub-title">Flutter</span>
-                                        
-                                        </figcaption>
-                                    </figure>
-                                </div>
-                                <div href="#" onclick="window.open('https://drive.google.com/file/d/1_oX_Z4BDPMPN1q3M3Gjc0hOT2vIYsco3/view')" class="grid-item col-md-4 col-sm-6 col-xs-12 flutter">
-                                    <figure>
-                                        <img src="assets/images/portfolio/g7.jpg" alt="img04">
-                                        <figcaption class="fig-caption">
-                                            <i class="fa fa-search"></i>
-                                            <h6 class="title">Meal Here</h6>
-                                            <span class="sub-title">Flutter</span>
-                                        
-                                        </figcaption>
-                                    </figure>
-                                </div>
-                                <div href="#" onclick="window.open('https://drive.google.com/file/d/13-YyQpimbvfeROTm5IuacSeSYAKELpQA/view')" class="grid-item col-md-4 col-sm-6 col-xs-12 flutter">
-                                    <figure>
-                                        <img src="assets/images/portfolio/g8.png" alt="img04">
-                                        <figcaption class="fig-caption">
-                                            <i class="fa fa-search"></i>
-                                            <h6 class="title">The News</h6>
-                                            <span class="sub-title">Flutter</span>
-                                        
-                                        </figcaption>
-                                    </figure>
-                                </div>
+        .img-border {
+            position: relative;
+            border-radius: 20px;
+            overflow: hidden;
+            box-shadow: var(--shadow-heavy);
+        }
 
-                                <div href="#" onclick="window.open('https://drive.google.com/file/d/1CG8xQfaJY-36WCfylYlFZIyhrhrdycVQ/view')" class="grid-item col-md-4 col-sm-6 col-xs-12 flutter">
-                                    <figure>
-                                        <img src="assets/images/portfolio/g9.jpg" alt="img04">
-                                        <figcaption class="fig-caption">
-                                            <i class="fa fa-search"></i>
-                                            <h6 class="title">Trivia Game</h6>
-                                            <span class="sub-title">Flutter</span>
-                                        
-                                        </figcaption>
-                                    </figure>
-                                </div>
+        .img-border::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: var(--gradient-accent);
+            opacity: 0.2;
+            z-index: 1;
+            transition: opacity 0.3s ease;
+        }
 
-                                 <div href="#" onclick="window.open('https://www.hackerrank.com/certificates/32afb56c5921')" class="grid-item col-md-4 col-sm-6 col-xs-12 certificates">
-                                    <figure>
-                                        <img src="https://www5.0zz0.com/2023/02/14/10/276963865.png" alt="img04">
-                                        <figcaption class="fig-caption">
-                                            <i class="fa fa-search"></i>
-                                            <h6 class="title">Problem Solving (Basic) Certificate</h6>
-                                            <span class="sub-title">Problem Solving</span>
-                                        
-                                        </figcaption>
-                                    </figure>
-                                </div>
+        .img-border:hover::before {
+            opacity: 0.1;
+        }
 
+        .img-border img {
+            width: 100%;
+            height: auto;
+            position: relative;
+            z-index: 2;
+            transition: transform 0.3s ease;
+        }
 
-                                <div href="#" onclick="window.open('https://www.hackerrank.com/certificates/16c2bbbcecf6')" class="grid-item col-md-4 col-sm-6 col-xs-12 certificates">
-                                    <figure>
-                                        <img src="https://www14.0zz0.com/2023/02/14/10/482085151.png" alt="img04">
-                                        <figcaption class="fig-caption">
-                                            <i class="fa fa-search"></i>
-                                            <h6 class="title">JavaScript (Basic) Certificate</h6>
-                                            <span class="sub-title">JavaScript</span>
-                                        
-                                        </figcaption>
-                                    </figure>
-                                </div>
+        .img-border:hover img {
+            transform: scale(1.05);
+        }
 
+        /* Section Styles */
+        .section-separator {
+            padding: 100px 0;
+        }
 
-                                <div href="#" onclick="window.open('https://www.hackerrank.com/certificates/40300f8088cb')" class="grid-item col-md-4 col-sm-6 col-xs-12 certificates">
-                                    <figure>
-                                        <img src="https://www14.0zz0.com/2023/02/14/10/680606212.png" alt="img04">
-                                        <figcaption class="fig-caption">
-                                            <i class="fa fa-search"></i>
-                                            <h6 class="title">JavaScript (Intermediate) Certificate</h6>
-                                            <span class="sub-title">JavaScript</span>
-                                        
-                                        </figcaption>
-                                    </figure>
-                                </div>
+        .section-title h2,
+        .section-title h3 {
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: 2.5rem;
+            font-weight: 600;
+            text-align: center;
+            margin-bottom: 3rem;
+            background: var(--gradient-primary);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
 
-                                <div href="#" onclick="window.open('https://graduation.udacity.com/confirm/P2H999MQ')" class="grid-item col-md-4 col-sm-6 col-xs-12 certificates">
-                                    <figure>
-                                        <img src="https://www7.0zz0.com/2023/02/14/10/361249692.png" alt="img04">
-                                        <figcaption class="fig-caption">
-                                            <i class="fa fa-search"></i>
-                                            <h6 class="title">Android Basics Nanodegree</h6>
-                                            <span class="sub-title">Native Android</span>
-                                        
-                                        </figcaption>
-                                    </figure>
-                                </div>
+        /* About Section */
+        .mh-about {
+            background: var(--bg-darker);
+            position: relative;
+        }
 
+        .mh-about::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: radial-gradient(circle at 20% 80%, rgba(102, 126, 234, 0.1) 0%, transparent 50%),
+                        radial-gradient(circle at 80% 20%, rgba(240, 147, 251, 0.1) 0%, transparent 50%);
+        }
 
-                                <div href="#" onclick="window.open('https://i.imgur.com/PL1uGJD.jpg')" class="grid-item col-md-4 col-sm-6 col-xs-12 certificates">
-                                    <figure>
-                                        <img src="data:image/jpeg;base64,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" alt="img04">
-                                        <figcaption class="fig-caption">
-                                            <i class="fa fa-search"></i>
-                                            <h6 class="title">Nasa Space Apps Competition</h6>
-                                            <span class="sub-title">Competitions</span>
-                                        
-                                        </figcaption>
-                                    </figure>
-                                </div>
-                            </div> <!-- End: .grid .project-gallery -->
-                        </div> <!-- End: .grid .project-gallery -->
-                    </div> <!-- End: .part -->
-                </div> <!-- End: .row -->
-            </div>
-          
+        .mh-about-img {
+            border-radius: 20px;
+            overflow: hidden;
+            box-shadow: var(--shadow-medium);
+            position: relative;
+            z-index: 2;
+        }
+
+        .mh-about-inner {
+            position: relative;
+            z-index: 2;
+        }
+
+        .mh-about-inner h2 {
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: 2.5rem;
+            font-weight: 600;
+            margin-bottom: 1.5rem;
+            color: var(--text-light);
+        }
+
+        .mh-about-inner p {
+            font-size: 1.1rem;
+            line-height: 1.8;
+            color: rgba(255, 255, 255, 0.8);
+            margin-bottom: 2rem;
+        }
+
+        /* Tags */
+        .mh-about-tag ul {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin-bottom: 2rem;
+        }
+
+        .mh-about-tag ul li span {
+            display: inline-block;
+            background: var(--gradient-primary);
+            color: var(--text-light);
+            padding: 8px 20px;
+            border-radius: 25px;
+            font-size: 0.9rem;
+            font-weight: 500;
+            transition: all 0.3s ease;
+            cursor: pointer;
+        }
+
+        .mh-about-tag ul li span:hover {
+            transform: translateY(-2px);
+            box-shadow: var(--shadow-light);
+        }
+
+        /* Download Button */
+        .btn-fill {
+            background: var(--gradient-accent);
+            border: none;
+            color: var(--text-light);
+            padding: 15px 30px;
+            border-radius: 50px;
+            font-weight: 600;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            transition: all 0.3s ease;
+            box-shadow: var(--shadow-light);
+        }
+
+        .btn-fill:hover {
+            transform: translateY(-3px);
+            box-shadow: var(--shadow-medium);
+            color: var(--text-light);
+        }
+
+        /* Service Cards */
+        .mh-service {
+            background: var(--bg-dark);
+            position: relative;
+        }
+
+        .mh-service-item {
+            background: var(--bg-card);
+            border-radius: 20px;
+            padding: 40px 30px;
+            text-align: center;
+            transition: all 0.3s ease;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            box-shadow: var(--shadow-light);
+            position: relative;
+            overflow: hidden;
+            height: 100%;
+        }
+
+        .mh-service-item::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: var(--gradient-primary);
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+
+        .mh-service-item:hover {
+            transform: translateY(-10px);
+            box-shadow: var(--shadow-heavy);
+        }
+
+        .mh-service-item:hover::before {
+            opacity: 0.1;
+        }
+
+        .mh-service-item i {
+            font-size: 3rem;
+            margin-bottom: 1.5rem;
+            background: var(--gradient-accent);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            position: relative;
+            z-index: 2;
+        }
+
+        .mh-service-item h3 {
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: 1.5rem;
+            font-weight: 600;
+            margin-bottom: 1rem;
+            color: var(--text-light);
+            position: relative;
+            z-index: 2;
+        }
+
+        .mh-service-item p {
+            color: rgba(255, 255, 255, 0.8);
+            line-height: 1.6;
+            position: relative;
+            z-index: 2;
+        }
+
+        /* Education Section */
+        .mh-experince {
+            background: var(--bg-darker);
+            position: relative;
+        }
+
+        .mh-education h3 {
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: 2.5rem;
+            font-weight: 600;
+            margin-bottom: 2rem;
+            color: var(--text-light);
+        }
+
+        .mh-education-item {
+            background: var(--bg-card);
+            border-radius: 15px;
+            padding: 30px;
+            margin-bottom: 20px;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            box-shadow: var(--shadow-light);
+            transition: all 0.3s ease;
+        }
+
+        .mh-education-item:hover {
+            transform: translateX(10px);
+            box-shadow: var(--shadow-medium);
+        }
+
+        .mh-education-item h4 {
+            color: var(--text-light);
+            font-size: 1.2rem;
+            line-height: 1.6;
+        }
+
+        .mh-education-item a {
+            color: var(--accent-color);
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .mh-education-item a:hover {
+            color: var(--primary-color);
+        }
+
+        /* Portfolio Section */
+        .mh-portfolio {
+            background: var(--bg-dark);
+            position: relative;
+        }
+
+        .portfolio-nav ul {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin-bottom: 3rem;
+            list-style: none;
+            padding: 0;
+        }
+
+        .portfolio-nav ul li {
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 25px;
+            padding: 10px 25px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .portfolio-nav ul li:hover,
+        .portfolio-nav ul li.current {
+            background: var(--gradient-primary);
+            transform: translateY(-2px);
+            box-shadow: var(--shadow-light);
+        }
+
+        .portfolio-nav ul li span {
+            color: var(--text-light);
+            font-weight: 500;
+            font-size: 0.9rem;
+        }
+
+        /* Portfolio Items */
+        .grid-item {
+            margin-bottom: 30px;
+        }
+
+        .grid-item figure {
+            position: relative;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: var(--shadow-light);
+            transition: all 0.3s ease;
+            cursor: pointer;
+            margin: 0;
+        }
+
+        .grid-item figure:hover {
+            transform: translateY(-10px);
+            box-shadow: var(--shadow-heavy);
+        }
+
+        .grid-item figure img {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+            transition: transform 0.3s ease;
+        }
+
+        .grid-item figure:hover img {
+            transform: scale(1.1);
+        }
+
+        .fig-caption {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.8);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            opacity: 0;
+            transition: all 0.3s ease;
+            padding: 20px;
+        }
+
+        .grid-item figure:hover .fig-caption {
+            opacity: 1;
+        }
+
+        .fig-caption i {
+            font-size: 2rem;
+            color: var(--accent-color);
+            margin-bottom: 1rem;
+        }
+
+        .fig-caption .title {
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: 1.2rem;
+            font-weight: 600;
+            color: var(--text-light);
+            margin-bottom: 0.5rem;
+            text-align: center;
+        }
+
+        .fig-caption .sub-title {
+            color: var(--accent-color);
+            font-size: 0.9rem;
+            font-weight: 500;
+        }
+
+        /* Contact Section */
+        .mh-footer {
+            background: var(--bg-darker);
+            position: relative;
+        }
+
+        .mh-address-footer-item {
+            background: var(--bg-card);
+            border-radius: 20px;
+            padding: 40px 30px;
+            text-align: center;
+            transition: all 0.3s ease;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            box-shadow: var(--shadow-light);
+            margin-bottom: 20px;
+            height: 100%;
+        }
+
+        .mh-address-footer-item:hover {
+            transform: translateY(-10px);
+            box-shadow: var(--shadow-medium);
+        }
+
+        .each-icon i {
+            font-size: 2.5rem;
+            background: var(--gradient-accent);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: 1rem;
+        }
+
+        .each-info h4 {
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: 1.3rem;
+            font-weight: 600;
+            color: var(--text-light);
+            margin-bottom: 1rem;
+        }
+
+        .each-info a {
+            color: rgba(255, 255, 255, 0.8);
+            text-decoration: none;
+            transition: color 0.3s ease;
+            display: inline-block;
+            margin-top: 5px;
+        }
+
+        .each-info a:hover {
+            color: var(--accent-color);
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .mh-header-info h2 {
+                font-size: 2.5rem;
+            }
+
+            .section-separator {
+                padding: 60px 0;
+            }
+
+            .portfolio-nav ul {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .social-links {
+                justify-content: center;
+            }
+
+            .xs-column-reverse {
+                flex-direction: column-reverse;
+            }
+        }
+
+        /* Animation Classes */
+        .fadeInUp {
+            animation: fadeInUp 0.8s ease-out;
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* Loading Animation */
+        .loading-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: var(--bg-dark);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 9999;
+            transition: opacity 0.5s ease;
+        }
+
+        .loading-overlay.hidden {
+            opacity: 0;
+            pointer-events: none;
+        }
+
+        .loading-spinner {
+            width: 50px;
+            height: 50px;
+            border: 3px solid rgba(255, 255, 255, 0.3);
+            border-top: 3px solid var(--accent-color);
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        .navbar-toggler {
+            border-color: rgba(255, 255, 255, 0.3);
+        }
+
+        .navbar-toggler-icon {
+            background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.8%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Loading Overlay -->
+    <div class="loading-overlay" id="loadingOverlay">
+        <div class="loading-spinner"></div>
+    </div>
+
+    <!-- NAVIGATION -->
+    <header class="mh-header mh-fixed-nav nav-scroll mh-xs-mobile-nav wow fadeInUp" id="mh-header">
+        <div class="container">
+            <div class="row">
+                <nav class="navbar navbar-expand-lg mh-nav nav-btn">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon icon"></span>
+                    </button>
                 
-                   
-                </div>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mr-auto ml-auto">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#mh-home">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#mh-about">About</a>
+                            </li>                               
+                            <li class="nav-item">
+                               <a class="nav-link" href="#mh-experience">Education</a>
+                            </li>                                
+                            <li class="nav-item">
+                                <a class="nav-link" href="#mh-portfolio">Portfolio</a>
+                            </li> 
+                            <li class="nav-item">
+                               <a class="nav-link" href="#mh-contact">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
             </div>
-        </section>
-
-        
-        
-       
-        
-        <!--
-        ===================
-           FOOTER 1
-        ===================
-        -->
-        <footer class="mh-footer" id="mh-contact">
-            <div>
-                <div class="container">
-                    <div class="row section-separator">
-                        <div class="col-sm-12 section-title wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s">
-                            <h3>Contact Me</h3>
+        </div>
+    </header>
+    
+    <!-- HOME SECTION -->
+    <section class="mh-home" id="mh-home">
+        <div class="container">
+            <div class="row xs-column-reverse section-separator vertical-middle-content home-padding">
+                <div class="col-sm-6">
+                    <div class="mh-header-info">
+                        <div class="mh-promo wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.1s">
+                            <span>Hello I'm</span>
                         </div>
-                        <div class="col-sm-12 mh-footer-address">
-                            <div class="row">
-                                <div class="col-sm-12 col-md-4">
-                                    <div class="mh-address-footer-item dark-bg shadow-1 wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.3s">
-                                        <div class="each-icon">
-                                            <i class="fa fa-location-arrow"></i>
-                                        </div>
-                                        <div class="each-info">
-                                            <h4>Address</h4>
-                                            <address>
-                                                6th of October City, Giza
-                                            </address>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-sm-12 col-md-4">
-                                    <div class="mh-address-footer-item dark-bg shadow-1 wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.5s">
-                                        <div class="each-icon">
-                                            <i class="fa fa-envelope-o"></i>
-                                        </div>
-                                        <div class="each-info">
-                                            <h4>Email</h4>
-                                            <a href="mailto:ahmedessamhalbas@gmail.com">ahmedessamhalbas@gmail.com</a><br>
-                                        
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-sm-12 col-md-4">
-                                    <div class="mh-address-footer-item dark-bg shadow-1 wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.7s">
-                                        <div class="each-icon">
-                                            <i class="fa fa-phone"></i>
-                                        </div>
-                                        <div class="each-info">
-                                            <h4>Phone</h4>
-                                            <a href="callto:+201017092487">+20 101 709 2487</a><br>
-                                            
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                        
+                        <h2 class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s">Ahmed Essam Halbas</h2>
+                        <h4 class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.3s">Mobile App Developer</h4>
+                        
+                        <ul>
+                            <li class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.4s">
+                                <i class="fas fa-envelope"></i>
+                                <a href="mailto:ahmedessamhalbas@gmail.com">ahmedessamhalbas@gmail.com</a>
+                            </li>
+                            <li class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.5s">
+                                <i class="fas fa-phone"></i>
+                                <a href="callto:+201017092487">+20 101 709 2487</a>
+                            </li>
+                            <li class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.6s">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <address>6th of October City, Giza</address>
+                            </li>
+                        </ul>
+                        
+                        <div class="social-links wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.7s">
+                            <a href="#" onclick="window.open('https://www.linkedin.com/in/ahmedhalbas')">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                            <a href="#" onclick="window.open('https://github.com/AhmedHalbas')">
+                                <i class="fab fa-github"></i>
+                            </a>
                         </div>
-                    
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="hero-img wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.6s">
+                        <div class="img-border">
+                            <img src="assets/images/hero.jpg" alt="Ahmed Essam" class="img-fluid">
+                        </div>
                     </div>
                 </div>
             </div>
-        </footer>     
+        </div>
+    </section>   
+    
+    <!-- ABOUT SECTION -->
+    <section class="mh-about" id="mh-about">
+        <div class="container">
+            <div class="row section-separator">
+                <div class="col-sm-12 col-md-6">
+                    <div class="mh-about-img shadow-2 wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.4s">
+                        <img src="assets/images/ab-img.png" alt="About Ahmed" class="img-fluid">
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6">
+                    <div class="mh-about-inner">
+                        <h2 class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.1s">About Me</h2>
+                        <p class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s">
+                            Hello, I'm Ahmed, a passionate mobile developer based in Cairo. 
+                            I have rich experience in mobile app design & development, 
+                            specializing in creating innovative and user-friendly applications. 
+                            I'm proficient in modern technologies and frameworks.
+                        </p>
+                        <div class="mh-about-tag wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.3s">
+                            <ul>
+                                <li><span>JavaScript</span></li>
+                                <li><span>React Native</span></li>
+                                <li><span>React</span></li>
+                                <li><span>Dart</span></li>
+                                <li><span>Flutter</span></li>
+                            </ul>
+                        </div>
+                        <a href="#" onclick="window.open('https://www.dropbox.com/s/5qo8qmx66x7o2cn/Ahmed-Essam-Resume.pdf')" class="btn btn-fill wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.4s">
+                            Download CV <i class="fas fa-download"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- SERVICE SECTION -->
+    <section class="mh-service">
+        <div class="container">
+            <div class="row section-separator">
+                <div class="col-sm-12 text-center section-title wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s">
+                    <h2>What I Do</h2>
+                </div>
+                
+                <div class="col-sm-6">
+                    <div class="mh-service-item shadow-1 wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.5s">
+                        <i class="fas fa-code"></i>
+                        <h3>Native Android Development</h3>
+                        <p>
+                            I develop native mobile applications for Android OS
+                            that respect the highest standards of usability, 
+                            performance and modern design principles.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="mh-service-item shadow-1 wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.7s">
+                        <i class="fas fa-mobile-alt"></i>
+                        <h3>React Native & Flutter Development</h3>
+                        <p>
+                            I create cross-platform mobile applications for both Android 
+                            and iOS with high-quality code, perfect UI/UX design, 
+                            and optimal performance.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>       
+    
+    <!-- EDUCATION SECTION -->
+    <section class="mh-experince" id="mh-experience">
+        <div class="bolor-overlay">
+            <div class="container">
+                <div class="row section-separator">
+                    <div class="col-sm-12 col-md-9">
+                        <div class="mh-education">
+                             <h3 class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s">Education</h3>
+                            <div class="mh-education-deatils">
+                                <div class="mh-education-item wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.3s">
+                                    <h4>Bachelor of Computer Science From <a target="_blank" href="https://must.edu.eg">Misr University For Science and Technology 2016-2020</a></h4>
+                                </div>      
+                                
+                                 <div class="mh-education-item wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.4s">
+                                    <h4>9-Months Training at <a target="_blank" href="https://www.iti.gov.eg">Information Technology Institute 2020-2021</a></h4>
+                                </div>   
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- PORTFOLIO SECTION -->
+    <section class="mh-portfolio" id="mh-portfolio">
+        <div class="container">
+            <div class="row section-separator">
+                <div class="section-title col-sm-12 wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.1s">
+                    <h3>Recent Projects</h3>
+                </div>
+                <div class="part col-sm-12">
+                    <div class="portfolio-nav col-sm-12" id="filter-button">
+                        <ul>
+                            <li data-filter="*" class="current wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.1s">
+                                <span>All Categories</span>
+                            </li>
+                            <li data-filter=".react_native" class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.3s">
+                                <span>React Native</span>
+                            </li>
+                            <li data-filter=".npm" class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.3s">
+                                <span>Open Source Libraries</span>
+                            </li>
+                            <li data-filter=".flutter" class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.3s">
+                                <span>Flutter</span>
+                            </li>
+                            <li data-filter=".native_android" class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s">
+                                <span>Native Android</span>
+                            </li>
+                            <li data-filter=".certificates" class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s">
+                                <span>Certificates</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="mh-project-gallery col-sm-12 wow fadeInUp" id="project-gallery" data-wow-duration="0.8s" data-wow-delay="0.5s">
+                        <div class="portfolioContainer row">
+
+                            <div class="grid-item col-md-4 col-sm-6 col-xs-12 react_native" onclick="window.open('https://apps.apple.com/ie/app/my-vodafone-ireland/id450785639')">
+                                <figure>
+                                    <img src="https://play-lh.googleusercontent.com/QukDVaC3VawzAELKMvWnyEajdXS2UsTF3TspfGk13oCbRNj9PH8dkT-lrD1DctLncr8" alt="My Vodafone Ireland iOS">
+                                    <figcaption class="fig-caption">
+                                        <i class="fas fa-search"></i>
+                                        <h6 class="title">My Vodafone Ireland - iOS</h6>
+                                        <span class="sub-title">React Native</span>
+                                    </figcaption>
+                                </figure>
+                            </div>
+
+                             <div class="grid-item col-md-4 col-sm-6 col-xs-12 react_native" onclick="window.open('https://play.google.com/store/apps/details?id=com.VodafoneIreland.MyVodafone')">
+                                <figure>
+                                    <img src="https://play-lh.googleusercontent.com/QukDVaC3VawzAELKMvWnyEajdXS2UsTF3TspfGk13oCbRNj9PH8dkT-lrD1DctLncr8" alt="My Vodafone Ireland Android">
+                                    <figcaption class="fig-caption">
+                                        <i class="fas fa-search"></i>
+                                        <h6 class="title">My Vodafone Ireland - Android</h6>
+                                        <span class="sub-title">React Native</span>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                                
+                             <div class="grid-item col-md-4 col-sm-6 col-xs-12 react_native" onclick="window.open('https://apps.apple.com/al/app/my-vodafone-albania/id562221028')">
+                                <figure>
+                                    <img src="https://play-lh.googleusercontent.com/QukDVaC3VawzAELKMvWnyEajdXS2UsTF3TspfGk13oCbRNj9PH8dkT-lrD1DctLncr8" alt="My Vodafone Albania iOS">
+                                    <figcaption class="fig-caption">
+                                        <i class="fas fa-search"></i>
+                                        <h6 class="title">My Vodafone Albania - iOS</h6>
+                                        <span class="sub-title">React Native</span>
+                                    </figcaption>
+                                </figure>
+                            </div>
+
+                             <div class="grid-item col-md-4 col-sm-6 col-xs-12 react_native" onclick="window.open('https://play.google.com/store/apps/details?id=al.myvodafone.android')">
+                                <figure>
+                                    <img src="https://play-lh.googleusercontent.com/QukDVaC3VawzAELKMvWnyEajdXS2UsTF3TspfGk13oCbRNj9PH8dkT-lrD1DctLncr8" alt="My Vodafone Albania Android">
+                                    <figcaption class="fig-caption">
+                                        <i class="fas fa-search"></i>
+                                        <h6 class="title">My Vodafone Albania - Android</h6>
+                                        <span class="sub-title">React Native</span>
+                                    </figcaption>
+                                </figure>
+                            </div>
+
+                              <div class="grid-item col-md-4 col-sm-6 col-xs-12 react_native" onclick="window.open('https://apps.apple.com/ao/app/my-vodafone-portugal/id400485671')">
+                                <figure>
+                                    <img src="https://play-lh.googleusercontent.com/QukDVaC3VawzAELKMvWnyEajdXS2UsTF3TspfGk13oCbRNj9PH8dkT-lrD1DctLncr8" alt="My Vodafone Portugal iOS">
+                                    <figcaption class="fig-caption">
+                                        <i class="fas fa-search"></i>
+                                        <h6 class="title">My Vodafone Portugal - iOS</h6>
+                                        <span class="sub-title">React Native</span>
+                                    </figcaption>
+                                </figure>
+                            </div>
+
+                             <div class="grid-item col-md-4 col-sm-6 col-xs-12 react_native" onclick="window.open('https://play.google.com/store/apps/details?id=com.vodafone.mCare')">
+                                <figure>
+                                    <img src="https://play-lh.googleusercontent.com/QukDVaC3VawzAELKMvWnyEajdXS2UsTF3TspfGk13oCbRNj9PH8dkT-lrD1DctLncr8" alt="My Vodafone Portugal Android">
+                                    <figcaption class="fig-caption">
+                                        <i class="fas fa-search"></i>
+                                        <h6 class="title">My Vodafone Portugal - Android</h6>
+                                        <span class="sub-title">React Native</span>
+                                    </figcaption>
+                                </figure>
+                            </div>
+
+                            <div class="grid-item col-md-4 col-sm-6 col-xs-12 react_native" onclick="window.open('https://apps.apple.com/eg/app/twist-music-music-radio/id1455541837')">
+                                <figure>
+                                    <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/0b/be/76/0bbe7685-665e-dd54-d8b3-9304c3d1cb66/AppIcon-1x_U007emarketing-0-7-0-0-85-220-0.png/460x0w.webp" alt="Twist Music iOS">
+                                    <figcaption class="fig-caption">
+                                        <i class="fas fa-search"></i>
+                                        <h6 class="title">Twist Music - iOS</h6>
+                                        <span class="sub-title">React Native</span>
+                                    </figcaption>
+                                </figure>
+                            </div>
+
+                             <div class="grid-item col-md-4 col-sm-6 col-xs-12 react_native" onclick="window.open('https://play.google.com/store/apps/details?id=com.etisalat.music')">
+                                <figure>
+                                    <img src="https://is1-ssl.mzstatic.com/image/thumb/Purple126/v4/0b/be/76/0bbe7685-665e-dd54-d8b3-9304c3d1cb66/AppIcon-1x_U007emarketing-0-7-0-0-85-220-0.png/460x0w.webp" alt="Twist Music Android">
+                                    <figcaption class="fig-caption">
+                                        <i class="fas fa-search"></i>
+                                        <h6 class="title">Twist Music - Android</h6>
+                                        <span class="sub-title">React Native</span>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                                
+
+                            <div class="grid-item col-md-4 col-sm-6 col-xs-12 react_native" onclick="window.open('https://apps.apple.com/lv/app/memphis-tours/id1613161049')">
+                                <figure>
+                                    <img src="https://play-lh.googleusercontent.com/fLLhTMnq3OyBdTYIamXRBjeoh9dV_DdWGJ32FPkFBSqrwxNsUK_3rLpBIg25W4xRfA=w480-h960-rw" alt="Memphis Tours iOS">
+                                    <figcaption class="fig-caption">
+                                        <i class="fas fa-search"></i>
+                                        <h6 class="title">Memphis Tours - iOS</h6>
+                                        <span class="sub-title">React Native</span>
+                                    </figcaption>
+                                </figure>
+                            </div>
+
+                             <div class="grid-item col-md-4 col-sm-6 col-xs-12 react_native" onclick="window.open('https://play.google.com/store/apps/details?id=com.travelverse')">
+                                <figure>
+                                    <img src="https://play-lh.googleusercontent.com/fLLhTMnq3OyBdTYIamXRBjeoh9dV_DdWGJ32FPkFBSqrwxNsUK_3rLpBIg25W4xRfA=w480-h960-rw" alt="Memphis Tours Android">
+                                    <figcaption class="fig-caption">
+                                        <i class="fas fa-search"></i>
+                                        <h6 class="title">Memphis Tours - Android</h6>
+                                        <span class="sub-title">React Native</span>
+                                    </figcaption>
+                                </figure>
+                            </div>
+
+                             <div class="grid-item col-md-4 col-sm-6 col-xs-12 react_native" onclick="window.open('https://apps.apple.com/lv/app/memphis-sales/id1641721095')">
+                                <figure>
+                                    <img src="https://play-lh.googleusercontent.com/05DDWNvtxASig0eajdavP-w6_e83HtbgPR26GGDnUcXviw6KJbJYvGem8FdX5322SHWl=w480-h960-rw" alt="Memphis Sales iOS">
+                                    <figcaption class="fig-caption">
+                                        <i class="fas fa-search"></i>
+                                        <h6 class="title">Memphis Sales - iOS</h6>
+                                        <span class="sub-title">React Native</span>
+                                    </figcaption>
+                                </figure>
+                            </div>
+
+                             <div class="grid-item col-md-4 col-sm-6 col-xs-12 react_native" onclick="window.open('https://play.google.com/store/apps/details?id=com.memphissales')">
+                                <figure>
+                                    <img src="https://play-lh.googleusercontent.com/05DDWNvtxASig0eajdavP-w6_e83HtbgPR26GGDnUcXviw6KJbJYvGem8FdX5322SHWl=w480-h960-rw" alt="Memphis Sales Android">
+                                    <figcaption class="fig-caption">
+                                        <i class="fas fa-search"></i>
+                                        <h6 class="title">Memphis Sales - Android</h6>
+                                        <span class="sub-title">React Native</span>
+                                    </figcaption>
+                                </figure>
+                            </div>
+
+                            <div class="grid-item col-md-4 col-sm-6 col-xs-12 npm" onclick="window.open('https://www.npmjs.com/package/react-native-paginated-modal-picker')">
+                                <figure>
+                                    <img src="https://www.svgrepo.com/show/354126/npm-icon.svg" alt="React Native Paginated Modal Picker">
+                                    <figcaption class="fig-caption">
+                                        <i class="fas fa-search"></i>
+                                        <h6 class="title">React Native Paginated Modal Picker</h6>
+                                        <span class="sub-title">Open Source Libraries</span>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                                
+                             <div class="grid-item col-md-4 col-sm-6 col-xs-12 npm" onclick="window.open('https://www.npmjs.com/package/react-native-local-notifier')">
+                                <figure>
+                                    <img src="https://www.svgrepo.com/show/354126/npm-icon.svg" alt="React Native Local Notifier">
+                                    <figcaption class="fig-caption">
+                                        <i class="fas fa-search"></i>
+                                        <h6 class="title">React Native Local Notifier</h6>
+                                        <span class="sub-title">Open Source Libraries</span>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                            
+                            <div class="grid-item col-md-4 col-sm-6 col-xs-12 native_android" onclick="window.open('https://github.com/AhmedHalbas/E7la2ly')">
+                                <figure>
+                                    <img src="assets/images/portfolio/g1.jpg" alt="E7la2ly">
+                                    <figcaption class="fig-caption">
+                                        <i class="fas fa-search"></i>
+                                        <h6 class="title">E7la2ly</h6>
+                                        <span class="sub-title">Native Android</span>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                           
+                            <div class="grid-item col-md-4 col-sm-6 col-xs-12 native_android" onclick="window.open('https://github.com/AhmedHalbas/GlobalNewsRetrofit')">
+                                <figure>
+                                    <img src="assets/images/portfolio/g2.jpg" alt="Global News">
+                                    <figcaption class="fig-caption">
+                                        <i class="fas fa-search"></i>
+                                        <h6 class="title">Global News</h6>
+                                        <span class="sub-title">Native Android</span>
+                                    </figcaption>
+                                </figure>
+                            </div>
+
+                            <div class="grid-item col-md-4 col-sm-6 col-xs-12 native_android" onclick="window.open('https://github.com/AhmedHalbas/BooksInfo')">
+                                <figure>
+                                    <img src="assets/images/portfolio/g3.png" alt="Books Info">
+                                    <figcaption class="fig-caption">
+                                        <i class="fas fa-search"></i>
+                                        <h6 class="title">Books Info</h6>
+                                        <span class="sub-title">Native Android</span>
+                                    </figcaption>
+                                </figure>
+                            </div>
+
+                            <div class="grid-item col-md-4 col-sm-6 col-xs-12 native_android" onclick="window.open('https://github.com/AhmedHalbas/ToDoList')">
+                                <figure>
+                                    <img src="assets/images/portfolio/g4.png" alt="To Do List">
+                                    <figcaption class="fig-caption">
+                                        <i class="fas fa-search"></i>
+                                        <h6 class="title">To DO List</h6>
+                                        <span class="sub-title">Native Android</span>
+                                    </figcaption>
+                                </figure>
+                            </div>
+
+                            <div class="grid-item col-md-4 col-sm-6 col-xs-12 flutter" onclick="window.open('https://halbas-covid19.en.uptodown.com/android')">
+                                <figure>
+                                    <img src="assets/images/portfolio/g5.png" alt="COVID-19 Tracker">
+                                    <figcaption class="fig-caption">
+                                        <i class="fas fa-search"></i>
+                                        <h6 class="title">COVID-19 Tracker</h6>
+                                        <span class="sub-title">Flutter</span>
+                                    </figcaption>
+                                </figure>
+                            </div>
+
+                            <div class="grid-item col-md-4 col-sm-6 col-xs-12 flutter" onclick="window.open('https://drive.google.com/file/d/1Vj9tcx7gY6whg7wLB_CfquPfMn6oVR8H/view')">
+                                <figure>
+                                    <img src="assets/images/portfolio/g6.png" alt="Buybes E-Commerce">
+                                    <figcaption class="fig-caption">
+                                        <i class="fas fa-search"></i>
+                                        <h6 class="title">Buybes E-Commerce</h6>
+                                        <span class="sub-title">Flutter</span>
+                                    </figcaption>
+                                </figure>
+                            </div>
+
+                            <div class="grid-item col-md-4 col-sm-6 col-xs-12 flutter" onclick="window.open('https://drive.google.com/file/d/1_oX_Z4BDPMPN1q3M3Gjc0hOT2vIYsco3/view')">
+                                <figure>
+                                    <img src="assets/images/portfolio/g7.jpg" alt="Meal Here">
+                                    <figcaption class="fig-caption">
+                                        <i class="fas fa-search"></i>
+                                        <h6 class="title">Meal Here</h6>
+                                        <span class="sub-title">Flutter</span>
+                                    </figcaption>
+                                </figure>
+                            </div>
+
+                            <div class="grid-item col-md-4 col-sm-6 col-xs-12 flutter" onclick="window.open('https://drive.google.com/file/d/13-YyQpimbvfeROTm5IuacSeSYAKELpQA/view')">
+                                <figure>
+                                    <img src="assets/images/portfolio/g8.png" alt="The News">
+                                    <figcaption class="fig-caption">
+                                        <i class="fas fa-search"></i>
+                                        <h6 class="title">The News</h6>
+                                        <span class="sub-title">Flutter</span>
+                                    </figcaption>
+                                </figure>
+                            </div>
+
+                            <div class="grid-item col-md-4 col-sm-6 col-xs-12 flutter" onclick="window.open('https://drive.google.com/file/d/1CG8xQfaJY-36WCfylYlFZIyhrhrdycVQ/view')">
+                                <figure>
+                                    <img src="assets/images/portfolio/g9.jpg" alt="Trivia Game">
+                                    <figcaption class="fig-caption">
+                                        <i class="fas fa-search"></i>
+                                        <h6 class="title">Trivia Game</h6>
+                                        <span class="sub-title">Flutter</span>
+                                    </figcaption>
+                                </figure>
+                            </div>
+
+                             <div class="grid-item col-md-4 col-sm-6 col-xs-12 certificates" onclick="window.open('https://www.hackerrank.com/certificates/32afb56c5921')">
+                                <figure>
+                                    <img src="https://www5.0zz0.com/2023/02/14/10/276963865.png" alt="Problem Solving Certificate">
+                                    <figcaption class="fig-caption">
+                                        <i class="fas fa-search"></i>
+                                        <h6 class="title">Problem Solving (Basic) Certificate</h6>
+                                        <span class="sub-title">Problem Solving</span>
+                                    </figcaption>
+                                </figure>
+                            </div>
+
+                            <div class="grid-item col-md-4 col-sm-6 col-xs-12 certificates" onclick="window.open('https://www.hackerrank.com/certificates/16c2bbbcecf6')">
+                                <figure>
+                                    <img src="https://www14.0zz0.com/2023/02/14/10/482085151.png" alt="JavaScript Basic Certificate">
+                                    <figcaption class="fig-caption">
+                                        <i class="fas fa-search"></i>
+                                        <h6 class="title">JavaScript (Basic) Certificate</h6>
+                                        <span class="sub-title">JavaScript</span>
+                                    </figcaption>
+                                </figure>
+                            </div>
+
+                            <div class="grid-item col-md-4 col-sm-6 col-xs-12 certificates" onclick="window.open('https://www.hackerrank.com/certificates/40300f8088cb')">
+                                <figure>
+                                    <img src="https://www14.0zz0.com/2023/02/14/10/680606212.png" alt="JavaScript Intermediate Certificate">
+                                    <figcaption class="fig-caption">
+                                        <i class="fas fa-search"></i>
+                                        <h6 class="title">JavaScript (Intermediate) Certificate</h6>
+                                        <span class="sub-title">JavaScript</span>
+                                    </figcaption>
+                                </figure>
+                            </div>
+
+                            <div class="grid-item col-md-4 col-sm-6 col-xs-12 certificates" onclick="window.open('https://graduation.udacity.com/confirm/P2H999MQ')">
+                                <figure>
+                                    <img src="https://www7.0zz0.com/2023/02/14/10/361249692.png" alt="Android Basics Nanodegree">
+                                    <figcaption class="fig-caption">
+                                        <i class="fas fa-search"></i>
+                                        <h6 class="title">Android Basics Nanodegree</h6>
+                                        <span class="sub-title">Native Android</span>
+                                    </figcaption>
+                                </figure>
+                            </div>
+
+                            <div class="grid-item col-md-4 col-sm-6 col-xs-12 certificates" onclick="window.open('https://i.imgur.com/PL1uGJD.jpg')">
+                                <figure>
+                                    <img src="https://i.imgur.com/PL1uGJD.jpg" alt="ITI Certificate">
+                                    <figcaption class="fig-caption">
+                                        <i class="fas fa-search"></i>
+                                        <h6 class="title">ITI - Mobile App Development</h6>
+                                        <span class="sub-title">Training Certificate</span>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <footer class="mh-footer" id="mh-contact">
+        <div class="container">
+            <div class="row section-separator">
+                <div class="col-sm-12 section-title wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s">
+                    <h3>Contact Me</h3>
+                </div>
+                <div class="col-sm-12 col-md-4">
+                    <div class="mh-address-footer-item wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.3s">
+                        <div class="each-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="each-info">
+                            <h4>Phone</h4>
+                            <a href="callto:+201017092487">+20 101 709 2487</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-4">
+                    <div class="mh-address-footer-item wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.4s">
+                        <div class="each-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="each-info">
+                            <h4>Email</h4>
+                            <a href="mailto:ahmedessamhalbas@gmail.com">ahmedessamhalbas@gmail.com</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-4">
+                    <div class="mh-address-footer-item wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.5s">
+                        <div class="each-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="each-info">
+                            <h4>Location</h4>
+                            <address>6th of October City, Giza</address>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>     
     
     <!--
     ==============
@@ -703,14 +1325,19 @@
     <script src="assets/plugins/js/isotope.pkgd.js"></script>
     <script src="assets/plugins/js/packery-mode.pkgd.js"></script>
     <!-- Map api -->
-    <script src="http://maps.googleapis.com/maps/api/js?v=3.exp&amp;key=AIzaSyCRP2E3BhaVKYs7BvNytBNumU0MBmjhhxc"></script>
+    <script src="http://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyCRP2E3BhaVKYs7BvNytBNumU0MBmjhhxc"></script>
     <!-- Custom Scripts-->
     <script src="assets/js/map-init.js"></script>
     <script src="assets/js/custom-scripts.js"></script>
     
-
+    <!-- Custom Initialization Script -->
+    <script>
+        // Hide loading overlay after page loads
+        window.addEventListener('load', function() {
+            document.getElementById('loadingOverlay').classList.add('hidden');
+        });
+    </script>
     
 </body>
 
 </html>
-
